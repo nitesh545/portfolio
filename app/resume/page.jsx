@@ -91,7 +91,7 @@ const skills = {
 		{icon: <FaNodeJs/>, name: "Node.js"},
 		{icon: <FaGamepad/>, name: "Game Engine Programming"},
 		{icon: <SiBevy/>, name: "Bevy"},
-		{icon: <SiUnrealengine/>, name: "Node.js"},
+		{icon: <SiUnrealengine/>, name: "Unreal Engine 5"},
 		{icon: <SiUnity/>, name: "Unity"},
 	]
 }
