@@ -56,6 +56,56 @@ const projects = [
 		live: "https://l-square-q-tify-umber.vercel.app/",
 		github: "https://github.com/nitesh545/L-square-QTify",
 	},
+	{
+		num: '05',
+		category: 'Game Dev',
+		title: 'Shi',
+		description: "\"Shi\" is a high-octane space adventure that puts you in the cockpit of a sleek spaceship hurtling through a mesmerizing cosmic landscape. ",
+		stack: [{name: "C++"}, {name: "UE5"}, {name: "Blueprints"}, {name: "Houdini"}, {name: "Blender"}],
+		image: '/assets/work/thumb5.png',
+		live: "https://cosmos545.itch.io/shi",
+		github: "",
+	},
+	{
+		num: '06',
+		category: 'Game Dev',
+		title: 'Turret Defender',
+		description: "Apocalyptic world with only 1 remaining tower. Will you be able to protect? Play the game and find out.",
+		stack: [{name: "UE5"}, {name: "C++"}, {name: "Houdini"}, {name: "Blueprints"}, {name: "Blender"}],
+		image: '/assets/work/thumb6.png',
+		live: "https://cosmos545.itch.io/turret-defender",
+		github: "",
+	},
+	{
+		num: '07',
+		category: 'Game Dev',
+		title: 'Ping Pong',
+		description: "Ping pong is among the games from which gaming started. This is a version with decent graphics with 3 difficulty modes.",
+		stack: [{name: "C++"}, {name: "UE5"}, {name: "Blueprints"}, {name: "Houdini"}, {name: "Blender"}],
+		image: '/assets/work/thumb7.png',
+		live: "https://cosmos545.itch.io/ping-pong",
+		github: "",
+	},
+	{
+		num: '08',
+		category: 'Game Dev',
+		title: 'Locked Room',
+		description: "An infinite play style where you have to collect points to meet the boss.",
+		stack: [{name: "UE5"}, {name: "C++"}, {name: "Houdini"}, {name: "Blueprints"}, {name: "Blender"}],
+		image: '/assets/work/thumb8.png',
+		live: "https://cosmos545.itch.io/locked-room",
+		github: "",
+	},
+	{
+		num: '09',
+		category: 'Programming',
+		title: 'Game Engine',
+		description: "My game engine - Brahmand. Crafted using rust, wgpu & egui. Leverages bevy_ecs for entity component system.",
+		stack: [{name: "Rust"}, {name: "Cargo"}, {name: "Debugging"}, {name: "wgpu"}, {name: "winit"}, {name: "egui"}],
+		image: '/assets/work/thumb9.jpg',
+		live: "",
+		github: "",
+	},
 ]
 
 function Work(props) {
@@ -77,7 +127,7 @@ function Work(props) {
 					<div className="w-full xl:w-[50%] xl:h-[450px] flex flex-col xl:justify-between order-2 xl:order-none">
 						<div className="flex flex-col gap-[30px]">
 							<div className="text-8xl leading-none font-extrabold text-transparent text-outline">
-								{project.num}
+								{project.num} {project.title}
 							</div>
 							<h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
 								{project.category} Project
@@ -93,7 +143,8 @@ function Work(props) {
 							</ul>
 							<div className="border border-white/20"></div>
 							<div className="flex items-center gap-4">
-								<Link href={project.live} target="_blank" rel="noopener noreferrer">
+								{project.live.length > 0 &&
+									(<Link href={project.live} target="_blank" rel="noopener noreferrer">
 									<TooltipProvider delayDuration={100}>
 										<Tooltip>
 											<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -105,6 +156,7 @@ function Work(props) {
 										</Tooltip>
 									</TooltipProvider>
 								</Link>
+									)}
 								{project.github.length > 0 && (
 								<Link href={project.github} target="_blank" rel="noopener noreferrer">
 									<TooltipProvider delayDuration={100}>
@@ -127,10 +179,10 @@ function Work(props) {
 							{projects.map((item, i) => {
 								return(
 									<SwiperSlide key={i} className="w-full">
-										<div className="h-[460px] relative group flex justify-center items-center bg-pink-50">
-											<div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
+										<div className="h-[460px] relative group flex justify-center items-center bg-transparent">
+											<div className="absolute top-0 bottom-0 w-full h-full bg-transparent z-10"></div>
 											<div className="relative flex w-full h-full">
-												<Image src={project.image} fill className="object-cover" alt="" />
+												<Image src={project.image} fill className="object-cover rounded-3xl bg-transparent accent-transparent" alt="" />
 											</div>
 										</div>
 									</SwiperSlide>
