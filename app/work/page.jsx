@@ -58,6 +58,26 @@ const projects = [
 	},
 	{
 		num: '05',
+		category: 'frontend',
+		title: 'QTrip',
+		description: "QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities.",
+		stack: [{name: "Responsive Design"}, {name: "Event Handling"}, {name: "Conditional Rendering"}, {name: "Bootstrap Carousel"}],
+		image: '/assets/work/thumb10.png',
+		live: "https://qtrip-dynamic-mauve-eight.vercel.app/",
+		github: "https://github.com/CrioDo/nitecse12457868-ME_QTRIPDYNAMIC",
+	},
+	{
+		num: '06',
+		category: 'frontend',
+		title: 'Bot AI',
+		description: "An application where the user can chat with an AI model & give some feedback at each stage of the conversation.",
+		stack: [{name: "React"}, {name: "Material UI"}, {name: "Figma"}, {name: "Debugging"}],
+		image: '/assets/work/thumb11.png',
+		live: "https://x-bot-ai-psi.vercel.app/",
+		github: "https://github.com/nitesh545/xBotAI",
+	},
+	{
+		num: '07',
 		category: 'Game Dev',
 		title: 'Shi',
 		description: "\"Shi\" is a high-octane space adventure that puts you in the cockpit of a sleek spaceship hurtling through a mesmerizing cosmic landscape. ",
@@ -67,7 +87,7 @@ const projects = [
 		github: "",
 	},
 	{
-		num: '06',
+		num: '08',
 		category: 'Game Dev',
 		title: 'Turret Defender',
 		description: "Apocalyptic world with only 1 remaining tower. Will you be able to protect? Play the game and find out.",
@@ -77,7 +97,7 @@ const projects = [
 		github: "",
 	},
 	{
-		num: '07',
+		num: '09',
 		category: 'Game Dev',
 		title: 'Ping Pong',
 		description: "Ping pong is among the games from which gaming started. This is a version with decent graphics with 3 difficulty modes.",
@@ -87,7 +107,7 @@ const projects = [
 		github: "",
 	},
 	{
-		num: '08',
+		num: '10',
 		category: 'Game Dev',
 		title: 'Locked Room',
 		description: "An infinite play style where you have to collect points to meet the boss.",
@@ -97,7 +117,7 @@ const projects = [
 		github: "",
 	},
 	{
-		num: '09',
+		num: '11',
 		category: 'Programming',
 		title: 'Game Engine',
 		description: "My game engine - Brahmand. Crafted using rust, wgpu & egui. Leverages bevy_ecs for entity component system.",

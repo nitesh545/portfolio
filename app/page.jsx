@@ -23,7 +23,7 @@ function Home(props) {
 
               <div className="flex flex-col xl:flex-row items-center gap-8">
                 <Button variant="outline" size="lg" className="uppercase flex items-center gap-2 text-accent hover:text-primary hover:transition-all duration-1000">
-                  <Link download href="./assets/Nitesh_Sharma.pdf" target="_blank" rel="noopener noreferrer">
+                  <Link download href="./assets/Nitesh.pdf" target="_blank" rel="noopener noreferrer">
                     <span>Resume</span>
                   </Link>
                   <FiDownload className="text-xl" />
