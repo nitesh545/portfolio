@@ -78,6 +78,16 @@ const projects = [
 	},
 	{
 		num: '07',
+		category: 'frontend',
+		title: 'Expense Tracker',
+		description: "An expense tracker is a tool for tracking expenses.",
+		stack: [{name: "React"}, {name: "Material UI"}, {name: "Figma"}, {name: "Deployment"}],
+		image: '/assets/work/thumb12.png',
+		live: "https://xexpensetracker-5chvqcwg0-nitesh-sharmas-projects-f9e9f1e4.vercel.app/",
+		github: "https://github.com/nitesh545/xexpensetracker",
+	},
+	{
+		num: '08',
 		category: 'Game Dev',
 		title: 'Shi',
 		description: "\"Shi\" is a high-octane space adventure that puts you in the cockpit of a sleek spaceship hurtling through a mesmerizing cosmic landscape. ",
@@ -87,7 +97,7 @@ const projects = [
 		github: "",
 	},
 	{
-		num: '08',
+		num: '09',
 		category: 'Game Dev',
 		title: 'Turret Defender',
 		description: "Apocalyptic world with only 1 remaining tower. Will you be able to protect? Play the game and find out.",
@@ -97,7 +107,7 @@ const projects = [
 		github: "",
 	},
 	{
-		num: '09',
+		num: '10',
 		category: 'Game Dev',
 		title: 'Ping Pong',
 		description: "Ping pong is among the games from which gaming started. This is a version with decent graphics with 3 difficulty modes.",
@@ -107,7 +117,7 @@ const projects = [
 		github: "",
 	},
 	{
-		num: '10',
+		num: '11',
 		category: 'Game Dev',
 		title: 'Locked Room',
 		description: "An infinite play style where you have to collect points to meet the boss.",
@@ -117,7 +127,7 @@ const projects = [
 		github: "",
 	},
 	{
-		num: '11',
+		num: '12',
 		category: 'Programming',
 		title: 'Game Engine',
 		description: "My game engine - Brahmand. Crafted using rust, wgpu & egui. Leverages bevy_ecs for entity component system.",
