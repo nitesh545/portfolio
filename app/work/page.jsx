@@ -132,7 +132,7 @@ const projects = [
 		title: 'Game Dev',
 		description: "Artistic Space shooter.",
 		stack: [{name: "Rust"}, {name: "Cargo"}, {name: "Debugging"}, {name: "Bevy"}, {name: "Krita"}, {name: "inkscape"}],
-		image: '/assets/work/thumb9.jpg',
+		image: '/assets/work/thumb12.jpg',
 		live: "",
 		github: "https://github.com/nitesh545/advent",
 	},
