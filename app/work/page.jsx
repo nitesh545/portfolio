@@ -129,6 +129,16 @@ const projects = [
 	{
 		num: '12',
 		category: 'Programming',
+		title: 'Game Dev',
+		description: "Artistic Space shooter.",
+		stack: [{name: "Rust"}, {name: "Cargo"}, {name: "Debugging"}, {name: "Bevy"}, {name: "Krita"}, {name: "inkscape"}],
+		image: '/assets/work/thumb9.jpg',
+		live: "",
+		github: "https://github.com/nitesh545/advent",
+	},
+	{
+		num: '13',
+		category: 'Programming',
 		title: 'Game Engine',
 		description: "My game engine - Brahmand. Crafted using rust, wgpu & egui. Leverages bevy_ecs for entity component system.",
 		stack: [{name: "Rust"}, {name: "Cargo"}, {name: "Debugging"}, {name: "wgpu"}, {name: "winit"}, {name: "egui"}],
